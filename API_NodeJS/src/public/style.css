@@ -1,0 +1,71 @@
+body{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anek Telugu', sans-serif;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    width: 102%;
+    height: 100px;
+    margin-top: -1%;
+    margin-left: -1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: aliceblue;
+    margin: 0%;
+}
+p{
+    margin: 0%;
+    border-bottom: solid black 1px;
+}
+img{
+    width: 22px;
+    height: 22px;
+}
+tr{
+   text-align: center;
+   
+}
+td{
+    
+}
+#pop-up{
+    padding-top: 25px;
+    position: absolute;
+    left:auto;
+    top:100px;
+    background-color: rgb(248, 248, 248);
+    width: 600px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    display: none;
+}
+input{
+    height: 15px;
+    margin: 0px 10px 0px 5px;
+}
+button{
+    height: 20px;
+}
+section#cadastro{
+    margin-top: 20px;
+    width: 600px;
+}
+table{
+    width: 600px;
+
+}
+#title_form{
+    color: black;
+
+}
+#forms{
+    margin-top: 10px;
+}
