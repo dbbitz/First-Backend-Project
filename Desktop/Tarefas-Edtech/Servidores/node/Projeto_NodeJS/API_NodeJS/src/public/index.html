@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Poppins:wght@200&family=Raleway:wght@100&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Usuários</title>
+</head>
+
+<body>
+    <header>
+        <h1>Front API</h1>
+    </header>
+    <section id="cadastro">
+        <h1 id="title_form">FORMULÁRIO DE CADASTRO DE USUÁRIOS</h1>
+        <p>Para inserir os dados na lista, preencha o formulário abaixo</p>
+        <div id="forms">
+            <input type="text" name="nome" id="post_name" placeholder="Nome Completo">
+            <input type="email" name="email" id="post_email" placeholder="Email">
+            <button id="btn-create">Cadastrar</button>
+            <button id="btn-list">Listar</button>
+        </div>
+    </section>
+    <h2 id="status"></h2>
+    <section>
+        <table>
+            
+        </table>
+    </section>
+    <div id="pop-up">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="put_name" value="">
+        <label for="name">Email: </label>
+        <input type="text" name="email" id="put_email" value="">
+        <button type="submit" id="confirm">Confirm</button>
+    </div>
+    <script src="index.js" type="module"></script>
+    <script src="/modules/listUsers.js" type="module"></script>
+    <script src="/modules/editUser.js" type="module"></script>
+</body>
+
+
+</html>
